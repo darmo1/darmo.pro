@@ -9,6 +9,7 @@
     "dev:inspect": "npm --node-options=--inspect=0.0.0.0:9229 run dev"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "gray-matter": "^4.0.3",
     "next": "11.1.0",
     "next-mdx-remote": "^3.0.4",

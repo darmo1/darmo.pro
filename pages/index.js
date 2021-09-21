@@ -7,6 +7,7 @@ import TimeLine from "../components/TimeLine";
 import About from "../components/About";
 import PopularBlogs from "../components/PopularBlogs";
 import { getSortedPosts } from "../lib/mdx";
+import Suscribe from "../components/Suscribe";
 
 export default function Home({posts}) {
  
@@ -18,7 +19,9 @@ export default function Home({posts}) {
       
 
       <TimeLine />
+      <Suscribe />
     </Container>
+    
     
   );
 }
