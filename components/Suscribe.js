@@ -39,7 +39,7 @@ const Suscribe = () => {
 
 
     return (
-        <div className=" w-1/2 rounded border p-4  m-auto my-3">
+        <div className=" lg:w-1/2 rounded border p-4  m-auto my-3 sm:w-full">
             <p className="font-bold text-xl text-gray-700 mb-1">Suscribe to the newsletter</p>
             <p>Thank you for coming here. 
                 If you subscribe to my newsletter you will get emails 
@@ -47,7 +47,7 @@ const Suscribe = () => {
                 and any kind of stuff what I am experimenting with and 
                 studying. <br /> <b> Get suscribe! </b>
             </p>
-            <form className="mt-4 " onSubmit={suscribeNewsletter}>
+            <form className="mt-4 lg:flex-row sm:flex-col sm:w-full  " onSubmit={suscribeNewsletter}>
                 <input 
                 type="email"
                 ref={emailRef}
@@ -55,12 +55,12 @@ const Suscribe = () => {
                 aria-label="Email for newsletter"
                 autoComplete="email"
                 required={true}
-                className="px-2 py-1 w-1/2 border"
+                className="py-1 border px-2 w-full lg:w-1/2 lg:mr-2"
 
                 />
                 <button 
                 type="submit"
-                className="bg-blue-200 px-6 rounded py-1 ">
+                className="bg-blue-200 px-6 rounded py-1 mt-2">
                     {
                         form.state === 'loading' ? 'cargando' : 'Suscribe'
                     }

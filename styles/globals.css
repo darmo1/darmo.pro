@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities{
+  .bg-dark-blue-notify{
+    background: #121f3d;
+  }
+}
+
 html,
 body {
   padding: 0;
