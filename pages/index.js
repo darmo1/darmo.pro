@@ -17,8 +17,6 @@ export default function Home({posts}) {
       <Notification />
       <About />
       <PopularBlogs posts={posts} />
-      
-
       <TimeLine />
       <Suscribe />
     </Container>

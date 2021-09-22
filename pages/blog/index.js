@@ -1,10 +1,12 @@
 import React from 'react'
+import Container from '../../components/Container';
 import PostCard from '../../components/PostCard';
 import { getSortedPosts } from '../../lib/mdx';
 
 const index = ({posts}) => {
     return (
-        <div className="max-w-4xl  px-4">
+        <Container>
+          <div className="max-w-4xl  mx-auto px-4">
               <div>
                 <h1 className="font-bold text-2xl md:text-4xl mb-4 mt-8 text-black dark:text:white">
                   Blogs
@@ -20,6 +22,7 @@ const index = ({posts}) => {
               </div>
               
             </div>
+        </Container>
     )
 }
 

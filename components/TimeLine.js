@@ -16,7 +16,7 @@ const Year = ({ children }) => {
 
 const Step = ({ title, children }) => {
   return (
-    <li className="mb-4 ml-2">
+    <li className="mb-4 ml-2 list-none">
       <div className="flex items-center mb-2 text-green-700 dark:text-green-300">
         <span className="sr-only"> Check </span>
         <svg className="h-4 w-4 mr-2" viewBox="0 0 24 24">
@@ -41,9 +41,12 @@ const Step = ({ title, children }) => {
 
 const FullTimeLine = () => {
   return (<>
+    <Step title="Next Js">
+          I'm learning NextJS , pretty cool framework
+        </Step>
     <Divider />
     <Year>1994</Year>
-    <ul>
+    <ul >
       <Step title="">Born</Step>
     </ul>
   </>);
@@ -60,8 +63,23 @@ const TimeLine = () => {
       </h3>
       <Year>2021</Year>
       <ul>
-        <Step title="Something">
-          I'm learning NextJS , pretty cool framework
+        <Step title="Comono website">
+          I did a website <a href="https://www.comonocolombia.com" target="_blank" className="text-blue-400">comonocolombia.com</a><br/>
+          I did it base on technologies such as:
+          <ul> 
+            <li className="text-sm">Frontend - next js</li>
+            <li className="text-sm">CMS - Sanity </li>
+            <li className="text-sm"> Style - jsx CSS</li>
+          </ul>
+        </Step>
+        <Step title="Closer web">
+          I was working on <a href="https://closer-353ab.firebaseapp.com/" target="_blank" className="text-blue-400"> Closer</a> a first product - MVP<br/>
+         The main idea of the project was people can create different activities regard have skills and they are able to share them with others and receive some payment for each activity.
+          I did it base on technologies such as:
+          <ul> 
+            <li className="text-sm">Frontend - next js</li>
+            <li className="text-sm">Firebase </li>
+          </ul>
         </Step>
       </ul>
       {isShowingFullTimeLine ? (

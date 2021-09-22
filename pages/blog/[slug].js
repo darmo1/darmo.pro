@@ -3,6 +3,7 @@ import React from 'react'
 import { getPostsBySlug, getSinglePost } from '../../lib/mdx'
 import matter from 'gray-matter'
 import { serialize } from 'next-mdx-remote/serialize'
+import Container from '../../components/Container'
 
 
 
@@ -32,13 +33,19 @@ export const getStaticProps = async ({params}) => {
     }
 }
 
+const  Wrapper = (props) => {
+    return (<div className="leading-9">{props.children} </div>)
+}
+
 const Blog = ({source, frontmatter}) => {
 
     return (
-        <div>
-            <h1>{frontmatter?.title}</h1>
-            <MDXRemote {...source} />
+        <Container>
+            <div className="max-w-4xl mx-auto leading-6">
+            <h1 className="font-bold text-gray-600 text-lg my-12 sm:font-medium">{frontmatter?.title}</h1>
+            <MDXRemote {...source} components={{ p: Wrapper}}/>
         </div>
+        </Container>
     )
 }
 

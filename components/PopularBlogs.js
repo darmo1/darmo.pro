@@ -26,7 +26,7 @@ const PopularBlogs = ({ posts }) => {
           );
         })}
       </div>
-      <Link href="/blog"><div type="button" className="flex items-center text-center text-sm my-4 mx-auto px-4 py-2 rounded-md font-medium text-gray-900 dark:text-gray-100"> See more </div></Link>
+      <Link href="/blog"><a  className="flex items-center text-center text-sm my-4 mx-auto px-4 py-2 rounded-md font-medium text-gray-900 dark:text-gray-100 "> See more </a></Link>
     </div>
   );
 };

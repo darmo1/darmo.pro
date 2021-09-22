@@ -68,7 +68,7 @@ const Container = (props) => {
           {menuNav.map((item) => {
             return (
               <Link href={item.href} passHref key={item.id}>
-                <a className={`${item.className} mr-4 `}>{item.title}</a>
+                <a className={`${item.className} mr-4 text-gray-600 font-semibold`}>{item.title}</a>
               </Link>
             );
           })}
@@ -82,6 +82,11 @@ const Container = (props) => {
       >
           {props.children}
       </main>
+      <hr/>
+      <footer className="max-w-4xl mx-auto text-sm my-4 text-center">
+        darmo.pro has being made with <span className="text-red-500 ">❤️</span> by Danilo Morales to 🌎 | website is made as portfolio and personal blog.   <br />
+        <small>The design was inspired based on websites of specials contributors as  Lee Robinson and Dalva de Oliveira who work in Vercel.</small> 
+      </footer>
     </div>
   );
 };

@@ -5,12 +5,12 @@ export const menuNav = [
     //     className:"",
     //     href: "/dashboard",
     // },
-    // {
-    //     id: 2,
-    //     title: 'Blog',
-    //     className:"",
-    //     href: "/blog",
-    // },
+    {
+        id: 2,
+        title: 'Blog',
+        className:"",
+        href: "/blog",
+    },
     // {
     //     id: 3,
     //     title: 'About',
