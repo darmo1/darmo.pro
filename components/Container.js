@@ -83,7 +83,7 @@ const Container = (props) => {
           {props.children}
       </main>
       <hr/>
-      <footer className="max-w-4xl mx-auto text-sm my-4 text-center sm:px-8 py-4">
+      <footer className="max-w-4xl mx-auto text-sm my-4 text-center px-8 py-4">
         darmo.pro has being made with <span className="text-red-500 ">❤️</span> by Danilo Morales to 🌎 | website is made as portfolio and personal blog.   <br />
         <small>The design was inspired based on websites of specials contributors as  Lee Robinson and Dalva de Oliveira who work in Vercel.</small> 
       </footer>
