@@ -63,7 +63,7 @@ const About = () => {
                 <p ref={word4} className="text-gray-800 inline-block">
                    become a better developer
                 </p>{" "}
-                and create products from then both of the best worlds <span className="font-bold">materials and tech. 🤝</span>
+                and create products get merging the best of both worlds,<span className="font-bold">"materials and tech". 🤝</span>
                <div className="my-4">
                <hr/>
                 <Link href={"https://www.linkedin.com/in/danilomorales110"}>
