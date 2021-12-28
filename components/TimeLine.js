@@ -64,8 +64,8 @@ const TimeLine = () => {
       <Year>2021</Year>
       <ul>
         <Step title="Comono website">
-          I did a website <a href="https://www.comonocolombia.com" target="_blank" className="text-blue-400">comonocolombia.com</a><br/>
-          I did it base on technologies such as:
+          I made a website <a href="https://www.comonocolombia.com" target="_blank" className="text-blue-400">comonocolombia.com</a><br/>
+          I made it base on technologies such as:
           <ul> 
             <li className="text-sm">Frontend - next js</li>
             <li className="text-sm">CMS - Sanity </li>
@@ -75,7 +75,7 @@ const TimeLine = () => {
         <Step title="Closer web">
           I was working on <a href="https://closer-353ab.firebaseapp.com/" target="_blank" className="text-blue-400"> Closer</a> a first product - MVP<br/>
          The main idea of the project was people can create different activities regard have skills and they are able to share them with others and receive some payment for each activity.
-          I did it base on technologies such as:
+          I made it base on technologies such as:
           <ul> 
             <li className="text-sm">Frontend - next js</li>
             <li className="text-sm">Firebase </li>
