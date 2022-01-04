@@ -63,6 +63,16 @@ const TimeLine = () => {
       </h3>
       <Year>2021</Year>
       <ul>
+      <Step title="Opportunity Bank">
+          I made a website <a href="https://bancodelasoportunidades.vercel.app/" target="_blank" className="text-blue-400">Opportunity bank</a><br/>
+          It is a project based on a website to mayoral Medellin which processes information for the requirement of loans and simulation of payments.
+          I made it base on technologies such as:
+          <ul> 
+            <li className="text-sm">Frontend - next js</li>
+            <li className="text-sm"> Formik </li>
+            <li className="text-sm"> Tailwind css </li>
+          </ul>
+        </Step>
         <Step title="Comono website">
           I made a website <a href="https://www.comonocolombia.com" target="_blank" className="text-blue-400">comonocolombia.com</a><br/>
           I made it base on technologies such as:
