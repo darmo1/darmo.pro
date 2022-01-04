@@ -68,7 +68,7 @@ const TimeLine = () => {
           It is a project based on a website to mayoral Medellin which processes information for the requirement of loans and simulation of payments.
           I made it base on technologies such as:
           <ul> 
-            <li className="text-sm">Frontend - next js</li>
+            <li className="text-sm">Frontend - Next js</li>
             <li className="text-sm"> Formik </li>
             <li className="text-sm"> Tailwind css </li>
           </ul>
