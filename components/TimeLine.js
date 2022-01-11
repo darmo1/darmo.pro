@@ -74,7 +74,7 @@ const TimeLine = () => {
           </ul>
         </Step>
         <Step title="Comono website">
-          I made a website <a href="https://www.comonocolombia.com" target="_blank" className="text-blue-400">comonocolombia.com</a><br/>
+          I made a website <a href="https://website-comono.vercel.app" target="_blank" className="text-blue-400">comonocolombia.com</a><br/>
           I made it base on technologies such as:
           <ul> 
             <li className="text-sm">Frontend - next js</li>
