@@ -16,6 +16,43 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
 
+          <title>Danilo Arturo Morales | Darmo10</title>
+          <meta
+            name="title"
+            content="Danilo Arturo Morales  | Darmo10
+"
+          />
+          <meta
+            name="description"
+            content="Front-end developer , JavaScript enthusiast and Materials Engineer"
+          />
+
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://darmo.pro/" />
+          <meta
+            property="og:title"
+            content="Danilo Arturo Morales  | Darmo10
+"
+          />
+          <meta
+            property="og:description"
+            content="Front-end developer , JavaScript enthusiast and Materials Engineer"
+          />
+          <meta property="og:image" content="" />
+
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://darmo.pro/" />
+          <meta
+            property="twitter:title"
+            content="Danilo Arturo Morales  | Darmo10
+"
+          />
+          <meta
+            property="twitter:description"
+            content="Front-end developer , JavaScript enthusiast and Materials Engineer"
+          />
+          <meta property="twitter:image" content=""></meta>
+
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
