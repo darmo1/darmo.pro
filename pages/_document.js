@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-
+import Script from 'next/script'
 class MyDocument extends Document {
   render() {
     return (
@@ -17,6 +17,8 @@ class MyDocument extends Document {
           />
 
           <title>Danilo Arturo Morales | Darmo10</title>
+          
+
           <meta
             name="title"
             content="Danilo Arturo Morales  | Darmo10
@@ -53,17 +55,7 @@ class MyDocument extends Document {
           />
           <meta property="twitter:image" content=""></meta>
 
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-          ></script>
-          <script>
-            {`window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS});`}
-          </script>
+         
         </Head>
         <body>
           <Main />
