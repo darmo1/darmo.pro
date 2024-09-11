@@ -66,30 +66,14 @@ const About = () => {
                 and create products get merging the best of both worlds,<span className="font-bold">"materials and tech". 🤝</span>
                <div className="my-4">
                <hr/>
-                <Link href={"https://www.linkedin.com/in/danilomorales110"}>
-                  <a className="font-bold transition-colors hover:text-sky-500 mr-4"  target="_blank">
-                    Linkedin
-                  </a>
-                </Link>{" "}
-                <Link href={"https://www.twitter.com/darmo10"}>
-                  <a className="font-bold transition-colors hover:text-sky-500 mr-4"  target="_blank">
-                    Twitter
-                  </a>
-                </Link>{" "}
+              
                 <Link href={"https://github.com/darmo1"}>
                   <a className="font-bold transition-colors hover:text-sky-500 mr-4"  target="_blank">
                     Github
                   </a>
                 </Link>{" "}
             
-                  <Link href={"/cv-danilo.pdf"}>
-  
-                  <a className="font-bold transition-colors hover:text-sky-500 mr-4 h-full" target="_blank" rel="noopener noreferrer">
-                    
-                    CV
-                  </a>
-              
-                </Link>{" "}
+               
   
                 <hr/>
                </div>
